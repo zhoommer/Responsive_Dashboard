@@ -237,9 +237,28 @@ body {
 @media (max-width: 480px) {
 }
 
+
 /* Extra small devices */
 
 @media (min-width: 481px) and (max-width: 767px) {
+	.management-cards {
+		width: 30em;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.management-card {
+		margin-top: 1em;
+	}
+
+	.management-card-header > h5 {
+		position: relative;
+		right: 4em;
+	}
+
+	.left-content-center {
+		width: 30em;
+	}
 }
 
 /* Small tablets */
@@ -296,6 +315,7 @@ body {
     left: -1em;
   }
 
+
   .sidebar-link-text {
     display: none;
   }
@@ -319,6 +339,27 @@ body {
 /* Desktops */
 
 @media (min-width: 1200px) and (max-width: 1919px) {
+	.brand {
+		position: relative;
+		bottom: 1em;
+	}
+
+	.aside {
+		height: max-content;
+	}
+	.sidebar-link-text {
+		font-size: 12px;
+	}
+
+	.sidebar-link {
+		position: relative;
+		bottom: 2em;
+	}
+
+	.sidebar-link > h3 {
+		position: relative;
+		bottom: 1em;
+	}
 }
 
 /* Extra large screens */
