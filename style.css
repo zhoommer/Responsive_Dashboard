@@ -201,6 +201,37 @@ body {
 	box-shadow: var(--box-shadow);
 }
 
+.left-content-footer {
+	background-color: #fff;
+	border-radius: var(--border-radius-2);
+}
+
+.table {
+	height: 22em;
+	width: 90% !important;
+	position: relative;
+	left: 20px;
+}
+
+.table-btn-success {
+	padding: 5px;	
+	width: 5em;
+	border-radius: 10px;
+	font-weight: 600;
+	background-color: #D5F5E3;
+	color: #58D68D;
+}
+
+.table-btn-warning {
+	padding: 5px;	
+	width: 5em;
+	border-radius: 10px;
+	font-weight: 600;
+	background-color: #F6DDCC;
+	color: #EB984E;
+}
+
+
 /* Mobile */
 
 @media (max-width: 480px) {
